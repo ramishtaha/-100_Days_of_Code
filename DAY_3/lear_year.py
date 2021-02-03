@@ -1,6 +1,9 @@
 def main():
     year = int(input("Please Enter the Year:\n"))
-    print(isleap(year))
+    if(isleap(year)):
+        print("The Year " + str(year) + " is a Leap Year")
+    else:
+        print("The Year " + str(year) + " is not a Leap Year")
 def isleap(year):
     if(year % 4 == 0):
         if(year % 100 == 0):
