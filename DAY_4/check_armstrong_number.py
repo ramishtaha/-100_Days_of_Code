@@ -1,5 +1,5 @@
 def main():
-    num = int(input("Enter the Number to check for Armstrong Number"))
+    num = int(input("Enter the Number to check for Armstrong Number:\n"))
     if(is_armstrong(num)):
         print(f"The Number {num} is an Armstrong Number")
     else:
